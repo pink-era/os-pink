@@ -1,0 +1,14 @@
+## if ARM then 
+require "os.pink.aarch64"
+## else
+require "os.pink.x86_64"
+## end
+
+
+require 'os.limine.requests'
+
+local function main(): void <entrypoint>
+
+
+  halt()
+end

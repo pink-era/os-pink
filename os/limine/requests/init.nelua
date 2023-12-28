@@ -1,0 +1,6 @@
+require "os.limine"
+
+global framebuffer_request: limine_framebuffer_request <ctopinit, volatile> = {
+    id = { 0xc7b1dd30df4c8b88, 0x0a82e883a194f07b, 0x9d5827dcd881dd75, 0xa3148604f6fab11b },
+    revision = 0
+};
